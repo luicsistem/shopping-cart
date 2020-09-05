@@ -18,7 +18,8 @@ h4 {
 }
 header {
     padding: 20px 0 0 0;
-    background: white;
+    background: rgb(128,72,237);
+background: linear-gradient(90deg, rgba(128,72,237,0.9923319669664741) 23%, rgba(12,0,36,0.9419117988992471) 100%);
     text-align: center;
 }
 @media (min-width: 750px) {
@@ -141,6 +142,7 @@ ul {
     border: 1px solid #e1e1e1;
     background: white;
 }
+
 @media (min-width: 550px) {
     .card {
         text-align: left;
