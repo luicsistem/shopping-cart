@@ -206,7 +206,7 @@
             </div>
             <div class="four columns">
                 <div class="card">
-                    <img src="img/int-artx.jpg" class="imagen-curso u-full-width">
+                    <img src="img/ia.jpeg" class="imagen-curso u-full-width">
                     <div class="info-card">
                         <h4>Inteligencia Artificial y Machine learning</h4>
 
@@ -271,9 +271,14 @@
 
 
     <footer class="footer">
-        <p>&copy derechos reservados | 2020</p>
+        <p>&copy Derechos reservados | <span id="date"></span> </p>
         <p>Developed by Luis Castro</p>
     </footer>
+    <script>
+        const fecha = new Date().getFullYear();
+        document.getElementById('date').innerHTML = fecha;
+      
+      </script>
 </body>
 
 </html>
