@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="¿Necesitas un nuevo sitio web? Elaboro experiencias en línea, hermosas y atractivas. Soy Luis Castro, Web Developer.">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <img src="img/logo.png" id="logo" width="150px">
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>Aprende nuevas habilidades en línea </h2>
+                        <p>Todos los cursos a $13</p>
+                        <form action="#" id="busqueda" method="post" class="formulario">
+                            <input class="u-full-width" type="text" placeholder="¿Que te gustaría Aprender?"
+                                id="buscador">
+                            <input type="submit" id="submit-buscador" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p> 130 Cursos en línea <br>
+                        Aprende tecnología, diseño y negocios</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p> Expertos de la industria <br>
+                        Aprenda 100% en línea </p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Acceso de por vida <br>
+                        Aprende a tu ritmo</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="lista-cursos" class="container">
+        <h1 id="encabezado" class="encabezado">Cursos Online</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/html-cs.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>HTML5, CSS3 </h4>
+
+                        <img src="img/estrellas.png">
+                        <p class="precio">$125 <span class="u-pull-right ">$13</span></p>
+                        <a href="#" class="u-full-width  button input agregar-carrito" data-id="1">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/js.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Fundamentos de Javascript</h4>
+
+                        <img src="img/estrellas.png">
+                        <p class="precio">$125 <span class="u-pull-right ">$13</span></p>
+                        <a href="#" class="u-full-width  button input agregar-carrito"
+                            data-id="11">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course-3.jpeg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Python desde Cero</h4>
+
+                        <img src="img/estrellas.png">
+                        <p class="precio">$125 <span class="u-pull-right ">$13</span></p>
+                        <a href="#" class="u-full-width  button input agregar-carrito" data-id="3">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course-4.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Introduccion a la Realidad Virtual</h4>
+
+                        <img src="img/estrellas.png">
+                        <p class="precio">$125 <span class="u-pull-right ">$13</span></p>
+                        <a href="#" class="u-full-width  button input agregar-carrito" data-id="4">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/linea2.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Intro a la terminal y Linea de comandos</h4>
+
+                        <img src="img/estrellas.png">
+                        <p class="precio">$125 <span class="u-pull-right ">$13</span></p>
+                        <a href="#" class="u-full-width  button input agregar-carrito" data-id="5">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course-6.webp" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Diseño Web para Principiantes</h4>
+
+                        <img src="img/estrellas.png">
+                        <p class="precio">$125 <span class="u-pull-right ">$13</span></p>
+                        <a href="#" class="u-full-width  button input agregar-carrito" data-id="6">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/react.jpeg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>React.js Desde Cero</h4>
+
+                        <img src="img/estrellas.png">
+                        <p class="precio">$125 <span class="u-pull-right ">$13</span></p>
+                        <a href="#" class="u-full-width  button input agregar-carrito" data-id="7">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/iot.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Internet of Thing</h4>
+
+                        <img src="img/estrellas.png">
+                        <p class="precio">$125 <span class="u-pull-right ">$13</span></p>
+                        <a href="#" class="u-full-width  button input agregar-carrito" data-id="8">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/int-artx.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Inteligencia Artificial y Machine learning</h4>
+
+                        <img src="img/estrellas.png">
+                        <p class="precio">$125 <span class="u-pull-right ">$13</span></p>
+                        <a href="#" class="u-full-width  button input agregar-carrito" data-id="9">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course-10.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Curso de Node.js</h4>
+
+                        <img src="img/estrellas.png">
+                        <p class="precio">$125 <span class="u-pull-right ">$13</span></p>
+                        <a href="#" class="u-full-width  button input agregar-carrito"
+                            data-id="10">Agregar Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course-2.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Realidad aumentada en la Web</h4>
+
+                        <img src="img/estrellas.png">
+                        <p class="precio">$125 <span class="u-pull-right ">$13</span></p>
+                        <a href="#" class="u-full-width  button input agregar-carrito" data-id="2">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+              
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mongo.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Curso Basico de MongoDB</h4>
+
+                        <img src="img/estrellas.png">
+                        <p class="precio">$125 <span class="u-pull-right ">$13</span></p>
+                        <a href="#" class="u-full-width  button input agregar-carrito"
+                            data-id="12">Agregar Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+        </div>
+        <!--.row-->
+    </div>
+
+
+
+    <footer class="footer">
+        <p>&copy derechos reservados | 2020</p>
+        <p>Developed by Luis Castro</p>
+    </footer>
+</body>
+
+</html>
